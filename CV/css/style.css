@@ -1,0 +1,98 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+body{
+    background: rgba(230, 230, 230, 1);
+}
+
+.logo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #B8C4CC;
+    padding: 15px;
+}
+
+.logo{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.aboutme {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00000C;
+    padding: 10px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.espacio {
+    padding: 40px;
+}
+
+.section, .section-intro {
+    padding: 1% 15%;
+}
+
+.section-intro{
+    background-color: #B8C4CC;
+}
+
+.campos {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .4rem;
+    color: rgba(0, 86, 119, 1);
+    background: #CFDDE6;
+    padding: 8px;
+}
+
+.lista {
+    list-style: none;
+    padding: 15px 0 0 0;
+}
+
+.negrita {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.saltoLinea {
+    margin-left: 80px;
+}
+
+.introduccion{
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #00000C;
+}
+li{
+    padding: 3px;
+}
+
+footer {
+    background: #B8C4CC;
+    color: #00000C;
+    text-align: center;
+    padding: 5%;
+}

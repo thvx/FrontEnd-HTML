@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.button-1, .button-2{
+    display: flex;
+    width: auto;
+    height: 2.6rem;
+    padding: 1rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #8B48BF;
+    border: none;
+    color: white;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.button-1:hover, .button-2:hover {
+    opacity: 0.5;
+}
+
+.button-1:active, .button-2:active {
+    cursor: grab;
+    transform: translateX(10px); 
+    background-color: #3CDDF3;
+}
+
+.button-2{
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background-color: #FAFAFA;
+    flex: 0 0 auto;
+    width: 100vw;
+    padding: 1.5rem;
+    padding-top: 3rem;
+    scroll-snap-align: start;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    overflow: hidden;
+    align-self: flex-end;
+    position: relative; 
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    flex-direction: row;
+    gap: 30%;
+    justify-content: center;
+}
+
+.container-cards{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.contendor-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20%;
+    margin: 8%;
+}
+
+.contenedor-header2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6rem;
+    margin: 3rem 2.5rem;
+}
+
+.contenedor-nav, #contact-button, .derecho {
+    display: none;
+}
+
+.contenedor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.75rem;
+}
+
+.copyright{
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.derecho2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.51rem;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background: #1E1E26;
+
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    align-self: stretch;
+    color: #232C50;
+    text-align: right;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.58rem;
+    letter-spacing: -0.10rem;
+}
+
+h4 {
+    color: #323851;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+}
+
+.img-header2 {
+    width: 100%;
+    height: auto;
+}
+
+.img-icon{
+    align-self: center;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+
+.izquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.57rem;
+}
+
+.logo-contenedor, .hamburguesa {
+    width: auto;
+    height: 80%;
+}
+
+.logo-footer{
+    width: 7rem;
+    height: auto;
+    align-self: center;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70%;
+}
+
+.numero {
+    padding: 0.62rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.62rem;
+    border-radius: 1.87rem;
+    background: #8B48BF;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-2, .section-3{
+    display: flex;
+    padding: 40px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background: #3CDDF3;
+}
+
+#section2{
+    padding: 20px;
+    height: auto;
+}
+
+.section-3{
+    background: #FFF;
+}
+
+#section-tarjetas {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.social-media{
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.div-tarjetas {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.31rem;
+}
+
+.div-tarjetas2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 3.12rem 0rem 0rem 3.12rem;
+    background: rgba(139, 72, 191, 0.30);
+}
+
+.tarjetas-p {
+    width: 95%;
+    color: #B3B2B7;
+    font-size: 0.95rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.59rem;
+    letter-spacing: -0.01rem;
+}
+
+textarea{
+    display: flex;
+    height: 44px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.texto-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-self: stretch;
+    color: #000;
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.62rem;
+}
+
+.titulo-seccion-2{
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+}
+
+.titulo-seccion-3{
+    color: #242E53;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155%;
+    letter-spacing: -0.392px;
+}
+
+.updates{
+    display: flex;
+    padding: 10px 5%;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+
+@media(min-width: 460px){
+    .container{
+        justify-content: center;
+    }
+}
+
+@media(min-width:768px){
+
+    a {
+        color: #242E52;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a::after {
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: #3CDDF3;
+        display: block;
+        transition: all 300ms;
+    }
+
+    a:hover::after {
+        width: 100%;
+    }
+
+    .button-2{
+        background: white;
+        color: #8B48BF;
+    }
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    
+    .card{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #contact-button, .derecho{
+        display:flex;
+    }
+
+    .container{
+        width: 20%;
+        gap: 20%;
+        justify-content: space-between;
+    }
+    
+    .container-cards{
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        gap: 1.4rem;
+        overflow-x: hidden;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .contendor-header {
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 4% 0;
+        gap: 0;
+    }
+
+    .contenedor-header2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 6rem 0;
+        gap: 6.25rem;
+        padding: 0 10%;
+    }
+
+    .contenedor-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .copyright {
+        position: absolute;
+        align-self: flex-end;
+        right: 10%;
+        margin: 10px;
+    }
+
+    .derecho {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.51rem;
+        width: 55%;
+    }
+
+    .derecho2{
+        display: none;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 40px 10%;
+    }
+
+    .hamburguesa {
+        display: none;
+    }
+
+    .img-header2 {
+        width: 50%;
+        height: auto;
+    }
+
+    .izquierdo{
+        width: 40%;
+    }
+  
+    .logo-footer{
+        width: 7rem;
+        height: auto;
+        align-self: flex-start;
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        gap: 3rem;
+    }
+    
+    .section-2{
+        background: #8B48BF;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+
+    #section2{
+        display: flex;
+        font-size: 2rem;
+        padding: 2.5rem 20%;
+        justify-content: center;
+        align-items: center;
+        gap: 6.5rem;
+        background: #8B48BF;
+    }
+
+    .section-3{
+        align-items: center;
+    }
+
+    #section-tarjetas {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 7rem;
+        background: #FAFAFA; 
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .div-tarjeta{
+        width: 30%;
+        margin: 3%;
+        margin-left: 0;
+    }
+
+    .div-tarjetas2 {
+        display: flex;
+        gap: 1.43rem;
+        align-items: center;
+        background: #FAFAFA;
+    }
+
+    .numero {
+        padding: 0.62rem 1.56rem;
+        border-radius: 1.87rem;
+        background: #8B48BF;
+        color: #FFF;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h4 {
+        color: #323851;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.01rem;
+    }
+
+    .tarjetas-p {
+        position: relative;
+        left: 90px;
+        width: 90%;
+        color: #B3B2B7;
+        font-size: 1.01rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.59rem;
+        letter-spacing: -0.01rem;
+    }
+
+    .social-media{
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .titulo-seccion-2{
+        width: 400px;
+        height: auto;
+        text-align: left;
+    }
+
+    .updates{
+        padding: 0;
+        width: 30vw;
+    }
+}
